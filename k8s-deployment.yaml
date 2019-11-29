@@ -32,6 +32,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: chilkuri1296/k8s-deployment
+        image: chilkuri1296/testpod
         ports:
         - containerPort: 80
