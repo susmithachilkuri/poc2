@@ -32,6 +32,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: chilkuri1296/k8s-deployment:12
+        image: chilkuri1296/k8s-deployment
         ports:
         - containerPort: 80
