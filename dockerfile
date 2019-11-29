@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu
 
 CMD apt-get update
 CMD apt-get install -y nginx 
