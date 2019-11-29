@@ -1,9 +1,7 @@
-FROM ubuntu
+FROM ubuntu:14.04
 
-CMD apt-get update
-CMD apt-get install -y nginx 
-CMD mkdir /tmp/docker
-CMD touch /tmp/docker/test.txt
+RUN apt-get update
+#RUN apt-get install -y nginx 
 
-EXPOSE 80
-CMD /usr/sbin/nginx -g "daemon off;"
+CMD ["bash"]
+
