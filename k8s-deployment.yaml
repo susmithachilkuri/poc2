@@ -32,6 +32,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: chilkuri1296/testpod
+        image: chilkuri1296/dec-poc
         ports:
         - containerPort: 80
