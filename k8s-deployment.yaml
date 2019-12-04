@@ -32,6 +32,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: chilkuri1296/dec-poc
+        image: chilkuri1296/dec3-poc
         ports:
         - containerPort: 80
